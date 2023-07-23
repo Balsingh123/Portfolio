@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<style>
+  
+  .container{
+    
+    position: relative;
+  	width: 420px;
+  	height: 300px;
+    display: inline-block;
+    
+  	
+  }
+  .image{
+    border-radius: 20px;
+  	width: 420px;
+  	height:300px;
+    display: block;
+  }
+  .overlay{
+    position: absolute;
+    transition: all .8s ease;
+    opacity: 0;
+    background: #141c3a;
+    border-radius: 20px;
+  }
+ 
+  .text{
+    color: white;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+    
+    font-size: 20px;
+  }
+  button{
+  padding:10px 20px;
+  color: white;
+  border:1.5px solid #730cf8;
+  border-radius: 23px;
+  background:#141c3a;
+  cursor: pointer;
+
+  }
+  button:hover{
+    background: #730cf8;
+  }
+  .overlayFade{
+    height: 100%;
+    width:100%;
+    top:0;
+    left:0;
+   }
+.container:hover .overlay,.container:hover .overlayFade {
+    opacity: 1;
+}
+</style>
+</head>
+<body>
+
+
+<div align="center">
+  <div class="container" style="margin-right: 20px;">
+     <img src="abcd.jpeg" alt="Avatar" class="image" style="opacity: 0.4; object-fit: cover;">
+     <div class="overlay overlayFade">
+        <button class="text" onclick=" window.open('https://lvyjsq.csb.app/','_blank')">Visit Website</button> 
+     </div>
+  </div>
+  <div class="container">
+     <img src="kalam.webp" alt="Avatar" class="image" style="opacity: .55;">
+     <div class="overlay overlayFade">
+        <button class="text" onclick="window.open('https://njwdj9.csb.app/','_blank')">Visit Website</button> 
+     </div>
+  </div>
+  <div class="container" style="margin-left: 20px;">
+     <img src="abcd.jpeg" alt="Avatar" class="image" style="opacity: 0.4; object-fit: cover;">
+     <div class="overlay overlayFade">
+        <button class="text" onclick="window.open('https://lvyjsq.csb.app/','_blank')">Visit Website</button> 
+     </div>
+  </div>
+</div>
+
+</body>
+</html>
+  
