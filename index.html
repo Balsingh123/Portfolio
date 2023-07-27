@@ -9,26 +9,55 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bitter&display=swap" rel="stylesheet">
 	 <style>
-	 	.im{
-	 		width: 50px;
-	 		height: 50px;
-	 		cursor: pointer;
-	 	}
-		body{margin: 0px;
-			font-family: 'Bitter', serif;
-		}
+	 	
+       
+       
+      
+       body{margin: 0px;
+            font-family: 'Bitter', serif;}
+
+         .im{
+            width: 50px;
+            height: 50px;
+            cursor: pointer;
+        }
+        .container1{
+            background: lightgray;
+            padding-left: 5%;
+            padding-right: 5%;
+            
+
+        }
+
+       .navbar{
+            display: flex;
+            align-items:center;
+       }
+       nav{
+        flex: 1;
+        text-align: right;
+       }
+       nav ul li{
+        list-style: none;
+        display: inline-block;
+        margin-left: 45px;
+       }
+
+       nav ul li a{
+        text-decoration: none;
+        font-size: 15px;
+        
+       } 
+
+
 		.a{text-align: center;
 			font-size: 50px;
 			margin-top: 50px;}
 		.b{text-align: center;
 			font-size: 23px;}
-		nav{margin-left: 1313px;}
-
-		nav a{text-decoration: none;
-			font-weight: bold;
-			margin-top: 15px;
-
-		}
+		
+  
+		
 		
 		.profile{
 			margin-top: 16px;
@@ -47,18 +76,12 @@
 			.parallax {
   
       background-image: url("parallax.jpg");
-      height: 48px;
+      height: 210px;
       background-attachment: fixed;
       background-position: center;
       background-size: cover;
 }
-    .intro{
-    	color: white;
-    	text-align: center;
-    	background: gray ;
-    	padding-top: 80px;
-    	padding-bottom: 110px;
-    }
+   
      .outer{
      	padding-top: 30px;
     height: 200px;
@@ -233,15 +256,22 @@
 
    </head>
    <body>
-   	
-<div class="parallax"></div>
-	<div class="nav" style="display: flex;">
-		<img class="im" src="logo.png">
-		<nav style="display: flex;">
-		    <a href="Portfolio.html" style="margin-right: 35px;">HOME</a> 
-		 	<a href="Portfolio.html">INFO</a></ul> 
-		</nav>
-	</div>
+
+  
+	  <div class="container1">
+            <div class="navbar">
+                <img class="im" src="logo.png">
+                <nav>
+                    <ul>
+                        <li><a href="portfolio.html">HOME</a></li>
+                        <li><a href="portfolio.html">INFO</a></li>
+                    </ul>
+                </nav>
+            </div>
+      </div>
+
+
+  
 
 	<div>
 		<h1 class="a">Software Development Engineer</h1>
@@ -255,13 +285,14 @@
 	<div style=" margin-right: 40.5px;">
 		<img class="h" src="logo1.jpg">
 	</div>
-	<div  class="intro">
-		<div><h1 style="font-size: 36px;">Hi, I’m Balsingh. Nice to meet you.</h1></div>
-		<div>
-			<p style="width: 658px;margin-left: 430px;font-size: 20px;">
+	<div  class="intro" style=" color:white; background-color: gray; text-align: center; padding-top: 50px; padding-bottom: 100px;">
+
+		<h1 style="font-size: 36px;">Hi, I’m Balsingh. Nice to meet you.</h1>
+		
+			<p style="width: 630px; font-size: 20px;display: block; margin-right: auto; margin-left: auto;">
       	I am an IIT Roorkee graduate of 2023, specializing in Integrated MSc. Applied Mathematics. As an intern at The Sparks Foundation, I successfully completed a web development project focused on Payment Gateway Integration. My approach to challenges is characterized by quiet confidence, innate curiosity, and a continuous drive to enhance my design skills.
       </p>
-		</div>
+		
     </div>
      <div class="outer">
     <div class="inner" >
@@ -319,9 +350,9 @@
      <img src="abcd.jpeg" alt="Avatar" class="image" style="opacity: 0.6; object-fit: cover;">
      <div class="overlay overlayFade">
      	<p style="text-align: center;color: white; font-size: 20px; margin-left: 25px;margin-right: 25px;
-     	margin-top: 30px;">It is an intern project with the theme of "Payment Gateway Integration," which I completed at The Sparks Foundation.</p>
+     	margin-top: 30px;">It is the Blackjack game created using HTML, CSS, and Javascript.</p>
         
-        <button class="text" onclick="window.open('https://lvyjsq.csb.app/','_blank')">Visit Website</button> 
+        <button class="text" onclick="window.open('https://m6cv4x.csb.app/','_blank')">Visit Website</button> 
      </div>
   </div>
 </div>
@@ -355,7 +386,7 @@
   	<p>State: Uttarakhand</p>
   </div>
  </div>
- <div class="ot"  style="text-align: center; margin-top: 200px;margin-bottom: 90px;padding-top: 17px;">
+ <div class="ot"  style="text-align: center; margin-top: 200px;padding-top: 17px;">
  	  <h1>Extra Curriculars</h1>
     <div class="in" style="display: flex;justify-content: space-around;">
     	<div class="in1">
@@ -372,18 +403,23 @@
  	   
     </div>
 </div>
-<div style="margin-top: 400px;"></div>
+
+
+<div ></div>
  <div class="contact"> 
-  <div style="text-align: center;"><h2 style="color: blue;">Contacts</h2></div>
+  <div style="text-align: center;"><h2 style="color: blue;">Contact</h2></div>
   <div  style="text-align: center;">
   	<img class="im" src="logo.png">
   	<p style="font-size: 20px;">Living, learning, & leveling up one day at a time.</p>
   	<p>Handcrafted by me &copy;twentytwentythree</p>
   </div>
  </div>
+
+
+
     <div class="footer">
     	<div class="icons" style="display: flex; justify-content: center;">
-    		<a href="https://github.com/Balsingh123" target="_blank"><i class="fa-brands fa-github"></i></a>
+    		<a href="https://github.com/Balsingh123" target="_blank"><i class="fa-brands fa-github" ></i></a>
     		<a href="https://www.linkedin.com/in/mudavath-balsingh-a8661819b/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
 
     		<a href="https://www.facebook.com/balsing.mudavath" target="_blank"><i class="fa-brands fa-facebook"></i></a>
